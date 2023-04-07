@@ -1,0 +1,36 @@
+
+.header_main
+{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('/images/head.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 66.7vw;
+}
+
+.font_main
+{
+    width: 48.36vw;
+    height: 26vw;
+    padding-left: 7vw;
+    padding-top: 10.6vw;
+    margin: 0px;
+}
+
+.basketbolist_main
+{
+    width: 33vw;
+    height: 40vw;
+    padding-right: 1.56vw;
+    margin-top: 2.6vw;
+}
+
+.under_navi
+{
+    display: flex;
+
+    justify-content: space-between;
+    
+}

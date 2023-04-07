@@ -1,0 +1,11 @@
+.footer
+{
+    margin: 45px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__year, .footer__author
+{
+    font: normal 400 12px 'Patron - Personal Use' ;
+}

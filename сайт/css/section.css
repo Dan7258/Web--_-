@@ -1,0 +1,12 @@
+section
+{
+    margin: 0px;
+    padding: 0px;
+}
+.background
+{
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+    color: black;
+}

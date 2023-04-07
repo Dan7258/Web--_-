@@ -1,0 +1,20 @@
+.proofs__1, .proofs__2, .proofs__3, .proofs__4
+{
+    margin-top:4.95vw ;
+    width: 31.25vw;
+    height: 100%;
+} 
+
+.proofs__title
+{
+    padding-top: 4.30vw;
+    text-align: center;
+}
+
+.proofs__description
+{
+    width: 25vw;
+    height: 14.84vw;
+    padding-top: 20px;
+    margin: 0px auto 0px auto;
+}
