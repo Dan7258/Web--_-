@@ -3,7 +3,7 @@
 {
     width: 100%;
     box-sizing: border-box;
-    background-image: url('../images/head.jpg') ;
+    background-image: url('images/head.jpg') ;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
