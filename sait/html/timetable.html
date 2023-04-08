@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Расписание</title>
 </head>
-<body class="page" style="margin:0;padding:0">
+<body class="page" >
     <header class="header">
         <nav class="navigation">
-            <img class="logo " src="/images/basket_icon.png" alt="мяч">
+            <img class="logo " src="../images/basket_icon.png" alt="мяч">
         <ul class="navigation__container">
-            <li class="main menu "><a class="text" href="/html/main.html">главная</a></li>
-            <li class="timetable menu "><a class="text" href="/html/timetable.html">расписание</a></li>
-            <li class="trainers menu "><a class="text" href="/html/coaches.html">тренеры</a></li>
-            <li class="tickets menu "><a class="text" href="/html/abonements.html">абонементы</a></li>
-            <li class="goods menu "><a class="text" href="/html/goods.html">товары</a></li>
+            <li class="main menu "><a class="text" href="../html/main.html">главная</a></li>
+            <li class="timetable menu "><a class="text" href="../html/timetable.html">расписание</a></li>
+            <li class="trainers menu "><a class="text" href="../html/coaches.html">тренеры</a></li>
+            <li class="tickets menu "><a class="text" href="../html/abonements.html">абонементы</a></li>
+            <li class="goods menu "><a class="text" href="../html/goods.html">товары</a></li>
         </ul>
     </nav>
     </header>
@@ -24,50 +24,46 @@
         <section class="timetable">
             <h1>Расписание</h1>
             <ul class="points">
-                <li class="points__molodezhka">
-                    <h3 class="points__molodezhka__title">Молодёжная</h3>
-                    <pre class="points__molodezhka__description"><b>
-                        Понедельник, младшая группа: 
-                        Вторник, старшая группа: 
-                        Четверг, старшая группа: 
-                        Суббота, младшая группа:
-                    </b></pre>
-                    <pre class="points__molodezhka__time">
-                        14:30 - 16.00
-                        15:30 - 17.00
-                        12:30 - 14.00
-                        12:30 - 14.00
-                    </pre>
+                <li class="points__molodezhka tochka">
+                    <h3 class="molodezhka__title">Молодёжная</h3>
+                    <div class="points__timetable"><pre class="molodezhka__description"><b>Понедельник, младшая группа: 
+Вторник, старшая группа: 
+Четверг, старшая группа: 
+Суббота, младшая группа:
+</b></pre>
+                    <pre class="molodezhka__time">14:30 - 16.00
+15:30 - 17.00
+12:30 - 14.00
+12:30 - 14.00
+</pre></div>
                 </li>
-                <li class="points__taganka">
-                    <h3 class="points__taganka__title">Таганская</h3>
-                    <pre class="points__taganka__description"><b>
-                        Понедельник, младшая группа: 
-                        Вторник, старшая группа: 
-                        Четверг, старшая группа: 
-                        Суббота, младшая группа:
-                    </b></pre>
-                    <pre class="points__molodezhka__time">
-                        14:30 - 16.00
-                        15:30 - 17.00
-                        12:30 - 14.00
-                        12:30 - 14.00
-                    </pre>
+                <li class="points__taganka tochka">
+                    <h3 class="taganka__title">Таганская</h3>
+                    <div class="points__timetable"><pre class="taganka__description"><b>Понедельник, младшая группа: 
+Вторник, старшая группа: 
+Четверг, старшая группа: 
+Суббота, младшая группа:
+</b></pre>
+                    <pre class="molodezhka__time">14:30 - 16.00
+15:30 - 17.00
+12:30 - 14.00
+12:30 - 14.00
+</pre></div>
                 </li>
-                <li class="points__voikovskaya">
-                    <h3 class="points__voikovskaya__title">Войковская</h3>
-                    <pre class="points__voikovskaya__description"><b>
-                        Понедельник, старшая группа: 
-                        Вторник, младшая группа: 
-                        Четверг, старшая группа: 
-                        Суббота, младшая группа: 
-                    </b></pre>
-                    <pre class="points__molodezhka__time">
-                        14:30 - 16.00
-                        15:30 - 17.00
-                        12:30 - 14.00
-                        12:30 - 14.00
-                    </pre>
+                <li class="points__voikovskaya tochka">
+                    <h3 class="voikovskaya__title">Войковская</h3>
+                    <div class="points__timetable">
+<pre class="voikovskaya__description"><b>Понедельник, старшая группа: 
+Вторник, младшая группа: 
+Четверг, старшая группа: 
+Суббота, младшая группа:</b></pre>
+                        <pre class="molodezhka__time">
+14:30 - 16.00
+15:30 - 17.00
+12:30 - 14.00
+12:30 - 14.00
+                        </pre>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -76,7 +72,7 @@
                 <iframe
                   class="map__area"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1669663581464!5m2!1sru!2sru"
-                  width="1920"
+                  
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>

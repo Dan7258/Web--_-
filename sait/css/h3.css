@@ -7,3 +7,8 @@ h3
     width: 100%;
 }
 
+
+.molodezhka__title, .taganka__title, .voikovskaya__title
+{
+    padding-top: 1.95vw;
+}

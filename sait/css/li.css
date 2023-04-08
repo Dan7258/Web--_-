@@ -18,3 +18,12 @@
     padding-top: 20px;
     margin: 0px auto 0px auto;
 }
+
+.tochka
+{
+    width: 54.69vw;
+    height: 22.66vw;
+    background-color: rgba(0, 240, 255, 0.35);
+    margin: 45px auto 0px auto;
+    border-radius: 30px;
+}

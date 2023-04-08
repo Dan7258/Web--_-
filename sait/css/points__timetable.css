@@ -1,0 +1,20 @@
+.points__timetable
+{
+    justify-content: space-between;
+    display: flex;
+    font: normal 400 1.56vw 'Disket Mono' ;
+    
+    padding: 1.95vw 3.13vw;
+}
+
+.molodezhka__description, .taganka__description, .voikovskaya__description
+{
+    font: normal 400 1.56vw 'Disket Mono' ;
+    line-height: 3.13vw;
+}
+
+.molodezhka__time, .taganka__time, .voikovskaya__time
+{
+    font: normal 400 1.56vw 'Disket Mono' ;
+    line-height: 3.13vw;
+}
