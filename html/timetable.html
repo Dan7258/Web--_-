@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Расписание</title>
 </head>
 <body class="page" >
     <header class="header">
         <nav class="navigation">
-            <img class="logo " src="./images/basket_icon.png" alt="мяч">
+            <img class="logo " src="/images/basket_icon.png" alt="мяч">
             <ul class="navigation__container">
-                <li class="main menu "><a class="text" href="./index.html">главная</a></li>
-                <li class="timetable menu "><a class="text" href="./html/timetable.html">расписание</a></li>
-                <li class="trainers menu "><a class="text" href="./html/coaches.html">тренеры</a></li>
-                <li class="tickets menu "><a class="text" href="./html/abonements.html">абонементы</a></li>
-                <li class="goods menu "><a class="text" href="./html/goods.html">товары</a></li>
+                <li class="main menu "><a class="text" href="/index.html">главная</a></li>
+                <li class="timetable menu underline">расписание</li>
+                <li class="trainers menu "><a class="text" href="/html/coaches.html">тренеры</a></li>
+                <li class="tickets menu "><a class="text" href="/html/abonements.html">абонементы</a></li>
+                <li class="goods menu "><a class="text" href="/html/goods.html">товары</a></li>
+            </ul>
+            <ul class="navigation__container__tel">
+                <form action="pages">
+                    <select class="manual" onchange="location = this.options[this.selectedIndex].value;">
+                        <option value="/html/timetable.html">расписание</option>
+                        <option value="/index.html">главная</option>
+                        <option value="/html/coaches.html">тренеры</option>
+                        <option value="/html/abonements.html">абонементы</option>
+                        <option value="/html/goods.html">товары</option>
+                      </select>
+                  </form>
             </ul>
     </nav>
     </header>
     <main class="main">
         <section class="timetable">
-            <h1>Расписание</h1>
+            <h1 class="timetable__head_title">Расписание</h1>
             <ul class="points">
                 <li class="points__molodezhka tochka">
                     <h3 class="molodezhka__title">Молодёжная</h3>
@@ -67,13 +78,10 @@
             </ul>
         </section>
         <section class="where_we">
+            <h2>Где мы есть</h2>
             <div class="map">
-                <iframe
-                  class="map__area"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1669663581464!5m2!1sru!2sru"
-                  
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                <iframe class="iframe"    src="https://yandex.ru/map-widget/v1/?um=constructor%3A1c90e239143062951319251dd49b00f3a8a23aaba220ad754318c0f30609acf4&amp;source=constructor" 
+                 frameborder="0" style=""></iframe>
               </div>
         </section>
         <section class="application">
@@ -89,7 +97,7 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__year">2023</p>
+        <p class="footer__year">&copy2023</p>
         <p class="footer__author">Dan7258</p>
     </footer>
 </body>

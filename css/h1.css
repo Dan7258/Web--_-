@@ -1,8 +1,8 @@
 h1
 {
     margin: 0px;
-    padding: 25px 0px 0px 20px;
-    font: normal 400 6.6vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+    padding: 1.95vw 0vw 0vw 1.56vw;
+    font: normal 400 7.03vw 'Super Webcomic Bros. (Rus by yakustick)' ;
 }
 
 .number
@@ -13,4 +13,31 @@ h1
     padding-left: 3.13vw;
     font: normal 400 7.81vw 'DS Stamper' ;
     color: #FF8500;
+}
+
+@media(max-width: 1280px)
+{
+    .number
+    {
+        
+        width: 60px;
+        height: 70px;
+        padding-left: 40px;
+        font: normal 400 100px 'DS Stamper' ;
+        
+    }
+
+    .goods__head_title, .coaches__head_title, .abonements__head_title, .timetable__head_title
+    {
+        font: normal 400 90px 'Super Webcomic Bros. (Rus by yakustick)' ;
+    }
+}
+
+
+@media(max-width: 800px)
+{
+    .goods__head_title, .coaches__head_title, .abonements__head_title, .timetable__head_title
+    {
+        font: normal 400 75px 'Super Webcomic Bros. (Rus by yakustick)' ;
+    }
 }

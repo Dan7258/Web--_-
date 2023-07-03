@@ -1,15 +1,20 @@
-
-
-@import url('../css/header_main.css');
-@import url('../css/navigation.css');
-@import url('../css/h1.css');
-@import url('../css/h2.css');
-@import url('../css/h3.css');
-@import url('../css/section.css');
-@import url('../css/ul.css');
-@import url('../css/li.css');
-@import url('../css/p.css');
-@import url('../css/contact_form.css');
-@import url('../css/footer.css');
-@import url('../css/points__timetable.css');
-@import url('../css/pre.css');
+@import url('/css/header_main.css');
+@import url('/css/navigation.css');
+@import url('/css/h1.css');
+@import url('/css/h2.css');
+@import url('/css/h3.css');
+@import url('/css/why_us.css');
+@import url('/css/ul.css');
+@import url('/css/li.css');
+@import url('/css/p.css');
+@import url('/css/contact_form.css');
+@import url('/css/footer.css');
+@import url('/css/points__timetable.css');
+@import url('/css/pre.css');
+@import url('/css/map.css');
+@import url('/css/application.css');
+@import url('/css/coaches.css');
+@import url('/css/abonements.css');
+@import url('/css/span.css');
+@import url('/css/goods.css');
+@import url('/css/body.css');

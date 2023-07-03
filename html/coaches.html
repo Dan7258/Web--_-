@@ -4,49 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Тренеры</title>
 </head>
 <body class="page" style="margin:0;padding:0">
     <header class="header">
         <nav class="navigation">
-            <img class="logo " src="./images/basket_icon.png" alt="мяч">
+            <img class="logo " src="/images/basket_icon.png" alt="мяч">
             <ul class="navigation__container">
-                <li class="main menu "><a class="text" href="./index.html">главная</a></li>
-                <li class="timetable menu "><a class="text" href="./html/timetable.html">расписание</a></li>
-                <li class="trainers menu "><a class="text" href="./html/coaches.html">тренеры</a></li>
-                <li class="tickets menu "><a class="text" href="./html/abonements.html">абонементы</a></li>
-                <li class="goods menu "><a class="text" href="./html/goods.html">товары</a></li>
+                <li class="main menu "><a class="text" href="/index.html">главная</a></li>
+                <li class="timetable menu "><a class="text" href="/html/timetable.html">расписание</a></li>
+                <li class="trainers menu underline">тренеры</li>
+                <li class="tickets menu "><a class="text" href="/html/abonements.html">абонементы</a></li>
+                <li class="goods menu "><a class="text" href="/html/goods.html">товары</a></li>
             </ul>
+            <ul class="navigation__container__tel">
+                <form action="pages">
+                    <select  class="manual" onchange="location = this.options[this.selectedIndex].value;">
+                        <option value="/html/coaches.html">тренеры</option>
+                        <option value="/index.html">главная</option>
+                        <option value="/html/timetable.html">расписание</option>
+                        <option value="/html/abonements.html">абонементы</option>
+                        <option value="/html/goods.html">товары</option>
+                      </select>
+                  </form>
+                </ul>
     </nav>
     </header>
 
     <main class="main">
         <section class="coaches">
-            <h1>
+            <h1 class="coaches__head_title">
                 ТРЕНЕРЫ
             </h1>
             <ul class="coaches__description">
                 <h2>БЫВШИЕ NBA ИГРОКИ</h2>            
                 <ul class="coaches__description__nba">
                     <li class="coaches__description__nba__1">
-                        <img src="./images/джордан.png" alt="Джордан">
-                        <span class="nba_1">Михаил Джордан</span>    
+                        <img class="coach_img jordan" src="/images/джордан.png" alt="Джордан">
+                        <div class="coaches__img"></div>
+                        <p class="coaches__name">Михаил Джордан</p>  
                     </li>
                     <li class="coaches__description__nba__2">
-                        <img src="./images/карри.png" alt="Карри">    
-                        <span class="nba_2">Степан Карри</span>
+                        <img class="coach_img carry" src="/images/карри.png" alt="Карри">
+                        <div class="coaches__img">  </div>  
+                        <p class="coaches__name">Степан Карри</p>
                     </li>
                 </ul>
                 <h2>ЛУЧШИЕ ИГРОКИ РОССИИ</h2>        
                 <ul class="coaches__description__rus">
                     <li class="coaches__description__rus__1">
-                        <img src="./images/кириленко.png" alt="Кириленко">
-                        <span class="rus_1">Андрей Кириленко</span> 
+                        <img class="coach_img ak-74" src="/images/кириленко.png" alt="Кириленко">
+                        <div class="coaches__img"></div>
+                        <p class="coaches__name">Андрей Кириленко</p> 
                     </li>
                     <li class="coaches__description__rus__2">
-                        <img src="./images/швед.png" alt="Швед">
-                        <span class="rus_2">Алексей Швед</span> 
+                        <img class="coach_img shved" src="/images/швед.png" alt="Швед">
+                        <div class="coaches__img"></div>
+                        <p class="coaches__name">Алексей Швед</p> 
                     </li>
                 </ul>
             </ul>
@@ -64,8 +79,8 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__year">2023</p>
-        <p class="footer__author">Dan7258</p>
+    <p class="footer__year">&copy;2023</p> 
+    <p class="footer__author">Dan7258</p>
     </footer>
 </body>
 </html>

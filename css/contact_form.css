@@ -1,26 +1,14 @@
 .contact__form
 {
-    margin: 45px auto 0px auto;
+    margin: 3.52vw auto 0px auto;
     width: 39.06vw;
     height: 43.59vw;
     background-color: white;
     border-radius: 20px;
     color: black;
 }
-.contact__form__application
-{
-    padding-top: 2.60vw;
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-    
-}
-.contact__form__description
-{
-    text-align: center;
-    margin: 1.95vw auto 0vw auto;
-    width: 34.38vw;
-}
+
+
 
 .contact__form__input
 {
@@ -28,8 +16,8 @@
     height: 5.16vw;
     margin: 1.95vw 3.91vw 0vw 3.91vw;
     border-radius: 10px;
-    border: 2px solid #000000;
-    padding: 0px 3px;
+    border: 0.16vw solid #000000;
+    padding: 0vw 0.23vw;
     font: normal 400 2.34vw 'Open Sans' ;
 }
 
@@ -43,4 +31,71 @@
     background-color: black;
     color: white;
     font: normal 400 2.73vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+    border: 0vw;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.contact__form__button:hover
+{
+    background-color: rgba(247, 115, 6, 1);
+    color: black;
+}
+
+
+@media(max-width: 1280px)
+{
+    .contact__form
+    {
+        margin: 45px auto 0px auto;
+        width: 500px;
+        height: 558px;
+    }
+    .contact__form__input
+    {
+        width: 390px;
+        height: 66px;
+        margin: 25px 50px 0px 50px;
+        border: 2px solid #000000;
+        padding: 0px 3px;
+        font: normal 400 30px 'Open Sans' ;
+    }
+    
+    .contact__form__button
+    {
+        width: 400px;
+        height: 80px;
+        margin: 25px 50px 0px 50px;
+        font: normal 400 35px 'Super Webcomic Bros. (Rus by yakustick)' ;
+        
+    }
+}
+
+
+@media(max-width: 660px)
+{
+    .contact__form
+    {
+        margin: 6.82vw auto 0vw auto;
+        width: 75.76vw;
+        height: 84.55vw;
+    }
+    .contact__form__input
+    {
+        width: 59.09vw;
+        height: 10vw;
+        margin: 3.79vw 7.58vw 0vw 7.58vw;
+        border: 0.30vw solid #000000;
+        padding: 0vw 0.45vw;
+        font: normal 400 4.55vw 'Open Sans' ;
+    }
+    
+    .contact__form__button
+    {
+        width: 60.61vw;
+        height: 12.12vw;
+        margin: 3.79vw 7.58vw 0vw 7.58vw;
+        font: normal 400 5.30vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+        
+    }
 }

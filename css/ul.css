@@ -11,3 +11,106 @@ ul
     justify-content: space-between;
     margin: 0px 10.94vw;
 }
+
+.coaches__description__nba, .coaches__description__rus
+{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0vw 17.97vw ;
+    
+}
+
+.levels
+{
+    margin: 0vw 9.38vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+/*товары*/
+
+.balls, .shoes, .shorts
+{
+    display: flex;
+    margin: 3.52vw 7.42vw 0vw 7.42vw;
+    justify-content: space-between;
+}
+
+@media(max-width: 1280px)
+{
+   /*товары*/
+   .balls, .shoes, .shorts
+   {
+       display: flex;
+       justify-content: space-between;
+   }
+}
+
+@media(max-width: 1100px)
+{
+   /*почему мы*/
+   .proofs_12, .proofs_34
+    {
+        margin: 0px 1.56vw;
+    }
+    /*товары*/
+
+    .balls, .shoes, .shorts
+    {
+        margin: 3.52vw 1.56vw 0vw 1.56vw;
+    }
+}
+
+@media(max-width: 960px)
+{
+   /*тренеры*/
+   .coaches__description__nba, .coaches__description__rus
+   {
+       margin: 0px 20px ;
+       
+   }
+   /*товары*/
+   .balls, .shoes, .shorts
+   {
+    margin: 0px;
+       display: inline;
+   }
+}
+
+@media(max-width: 850px)
+{
+   /*почему мы*/
+    .proofs_12
+    {
+        display: inline;
+        height: 790px;
+    }
+    .proofs_34
+    {
+        display: inline;
+    }
+
+    /*абонементы*/
+    .levels
+   {
+       display: inline;
+       margin: 0px;
+   }
+}
+
+
+@media(max-width: 660px)
+{
+   /*тренеры*/
+   .coaches__description__nba, .coaches__description__rus
+   {
+       display:inline;
+      
+   }
+
+   
+}
+
+
+

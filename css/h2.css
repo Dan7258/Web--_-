@@ -1,8 +1,40 @@
 h2
 {
-    margin: 45px 0px 0px 20px;   
+    margin: 3.52vw 0vw 0vw 1.56vw;   
     padding-top: 0px;
     font: normal 400 3.13vw 'Super Webcomic Bros. (Rus by yakustick)' ;
     width: 95.66vw;
 }
+.contact__form__application
+{
+    padding-top: 3.91vw;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    
+}
 
+@media (max-width:1280px) 
+{
+    h2
+{  
+    font: normal 400 40px 'Super Webcomic Bros. (Rus by yakustick)' ;
+}
+/*контактная форма*/
+.contact__form__application
+{
+    padding-top: 50px;
+    
+}
+}
+
+@media (max-width:660px) 
+{
+
+/*контактная форма*/
+.contact__form__application
+{
+    padding-top: 7.58vw;
+    font: normal 400 6.06vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+}
+}

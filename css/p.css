@@ -5,3 +5,121 @@ p
     padding: 0px;
     font: normal 400 1.56vw 'Disket Mono' ;
 }
+
+.contact__form__description
+{
+    text-align: center;
+    margin: 1.95vw auto 0vw auto;
+    width: 34.38vw;
+}
+.coaches__name
+{
+    text-align: center;
+    width: 23.44vw;
+    margin-top:1.56vw ;
+    font: normal 400 2.34vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+}
+
+/*абонементы*/
+.level__description
+{
+    font: normal 400 1.33vw 'Disket Mono' ;
+    text-align: center;
+    margin-top:1.56vw ;
+    margin-left: 0.78vw;
+    width: 24.45vw;
+    height: 5.47vw;
+
+}
+
+.level__mark
+{
+    font: normal 400 1.41vw 'Disket Mono' ;
+    margin-top: 1.56vw ;
+    margin-left: 3.67vw ; 
+    width: 18.75vw;
+    text-align: center;
+}
+
+/*товары*/
+
+.goods_description
+{
+    font: normal 400 1.33vw 'Disket Mono' ;
+    text-align: center;
+    margin-top: 0.78vw;
+    width: 23.44vw;
+    height: 3.13vw;
+}
+
+@media(max-width: 1280px)
+{
+   p
+   {
+    font: normal 400 20px 'Disket Mono' ;
+   }
+   /*контактная форма*/
+   .contact__form__description
+    {
+        margin: 25px auto 0px auto;
+        width: 440px;
+    }
+    .coaches__name
+    {
+        text-align: center;
+        width: 300px;
+        margin-top:20px ;
+        font: normal 400 30px 'Super Webcomic Bros. (Rus by yakustick)' ;
+    }
+
+    /*абонементы*/
+    .level__description
+    {
+        font: normal 400 17px 'Disket Mono' ;
+        margin-top: 20px ;
+        margin-left: 10px;
+        width: 313px;
+        height: 70px;
+    }
+    .level__mark
+    {
+        font: normal 400 18px 'Disket Mono' ;
+        margin-top: 20px ;
+        margin-left: 47px ; 
+        width: 240px;
+        text-align: center;
+    }
+
+    /*товары*/
+
+    .goods_description
+    {
+        font: normal 400 17px 'Disket Mono' ;
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
+
+@media(max-width: 660px)
+{
+   /*контактная форма*/
+   .contact__form__description
+    {
+        margin: 3.79vw auto 0vw auto;
+        width: 66.67vw;
+        font: normal 400 3.03vw 'Disket Mono' ;
+    }
+
+    /*тренеры*/
+    .coaches__name
+    {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -15,15 +15,126 @@
 {
     width: 25vw;
     height: 14.84vw;
-    padding-top: 20px;
+    padding-top: 1.56vw;
     margin: 0px auto 0px auto;
 }
 
+/*Расписание*/
 .tochka
 {
     width: 54.69vw;
     height: 22.66vw;
     background-color: rgba(0, 240, 255, 0.35);
-    margin: 45px auto 0px auto;
-    border-radius: 30px;
+    margin: 3.52vw auto 0vw auto;
+    border-radius: 2.34vw;
+}
+
+
+/*абонементы*/
+
+.level
+{
+    width: 26.02vw;
+    height: 38.59vw;
+    border-radius: 1.56vw;
+    margin-top: 3.52vw;
+    box-shadow:  0 0 0vw red;
+    transition: 200ms ease-in-out;
+}
+
+
+
+/*Товары*/
+
+
+
+@media(max-width: 1280px)
+{
+   /*почему мы*/
+   .proofs__1, .proofs__2, .proofs__3, .proofs__4
+    {
+        width: 400px;
+    } 
+   .proofs__title
+    {
+        padding-top: 55px;
+    }
+    .proofs__description
+    {
+        width: 320px;
+        height: 190px;
+        padding-top: 20px;
+        margin: 0px auto 0px auto;
+    }
+
+    /*Расписание*/
+
+    .tochka
+    {
+        width: 700px;
+        height: 290px;
+        margin: 45px auto 0px auto;
+        border-radius: 30px;
+    }
+    /*абонементы*/
+
+    .level
+    {
+        width: 333px;
+        height: 494px;
+        border-radius: 20px;
+    }
+}
+@media(max-width: 960px)
+{
+   /*товары*/
+   .good
+   {
+    width: 300px;
+    margin: 3.52vw auto;
+   }
+}
+@media(max-width: 850px)
+{
+   /*почему мы*/
+   .proofs__1, .proofs__2, .proofs__3, .proofs__4
+    {
+        margin:4.95vw auto 0vw auto ;
+        height: 100%;
+    }
+
+        /*абонементы*/
+
+    .level
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+@media(max-width: 740px)
+{
+   /*Расписание*/
+   .tochka
+   {
+       width: 94.59vw;
+       height: 39.19vw;
+       margin: 6.08vw auto 0vw auto;
+   }
+}
+
+
+@media(max-width: 660px)
+{
+   /*тренеры*/
+   .coaches__description__rus__1, .coaches__description__rus__2, .coaches__description__nba__1, .coaches__description__nba__2
+   {
+    width: 300px;
+    margin: 0px auto;
+    
+   }
+
 }

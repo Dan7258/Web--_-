@@ -12,3 +12,14 @@ h3
 {
     padding-top: 1.95vw;
 }
+
+
+@media (max-width:1280px) 
+{
+    h3
+    {
+        
+        font: normal 400 30px 'Super Webcomic Bros. (Rus by yakustick)' ;
+        width: 100%;
+    }
+}

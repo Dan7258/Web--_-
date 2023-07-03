@@ -1,0 +1,85 @@
+
+
+.coach_img
+{
+    width: 23.44vw;
+}
+
+.coaches__img
+{
+    margin-top: 5.47vw;
+    height: 23.44vw;
+    width: 23.44vw;
+    background-color: white;
+    background-size: 23.44vw 23.44vw ;
+    border-radius: 23.44vw;
+}
+
+.jordan
+{
+    margin-bottom: -29.18vw;
+}
+.carry
+{
+    margin-bottom: -29.18vw;
+}
+.ak-74
+{
+    margin-bottom: -29.18vw;
+}
+.shved
+{
+    margin-bottom: -29.18vw;
+}
+
+@media (max-width:1280px) 
+{
+    .coach_img
+    {
+        width: 300px;
+    }
+
+    .coaches__img
+    {
+        margin-top: 70px;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        background-size: 300px 300px ;
+        border-radius: 300px;
+    }
+    .jordan
+    {
+        margin-bottom: -374px;
+    }
+    .carry
+    {
+        margin-bottom: -374px;
+    }
+    .ak-74
+    {
+        margin-bottom: -374px;
+    }
+    .shved
+    {
+        margin-bottom: -374px;
+    }
+}
+
+
+@media(max-width: 660px)
+{
+   /*тренеры*/
+   .coach_img
+   {
+        margin-bottom: -374px  ;
+        
+        align-items: center;
+   }
+   
+   .coaches__img
+   {
+       margin: 70px auto 0px auto;
+   }
+
+}

@@ -1,4 +1,10 @@
 body
 {
     width: 100%;
+
 }
+
+::selection {
+    background-color: rgba(247, 115, 6, 1);
+    color: #fff;
+  }

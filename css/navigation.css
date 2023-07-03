@@ -23,20 +23,78 @@ body
     margin: 0px;
     
 }
+.navigation__container__tel
+{
+    display: none;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
 
 .menu
 {
-    padding-right: 20px;
-    
+    height: 20px;
+    margin-right: 20px;
 }
+.menu:hover
+{
+    text-decoration: underline;
+}
+
 .logo
 {
     width: 50px;
     height: 50px;
-    padding: 30px 0px 0px 20px;
+    margin: 30px 0px 0px 20px;
 }
 .text
 {
     color: white;
     text-decoration: none;
+}
+
+
+@media(max-width: 660px)
+{
+
+    .navigation__container
+    {
+        display: none;
+        margin: 28px 0px 0px 18px;
+    }
+    
+    .logo
+    {
+        border: 2px solid rgba(255, 0, 0, 0);
+        border-radius: 50px;
+        margin: 4.55vw 0vw 0vw 3.03vw;
+    }
+    .navigation__container__tel
+    {
+        display: inline;
+        width: 100%;
+    }
+    .manual
+    {
+        width: 75.76vw;
+        text-align: center;
+        height: 40px;
+        margin: 6.06vw 3.03vw 0vw 3.03vw;
+        border-radius: 20px;
+        font: normal 400 16px 'Disket Mono' ;
+        appearance: none;
+        background-image: url("/images/стрелка.gif") ;
+        background-repeat: no-repeat;
+        background-position: right ;
+        background-size: 45px 35px;
+        outline: 0;
+    }
+    
+    .option_main
+    {
+        background-image: url("/images/homepage.png");
+    }
+
 }

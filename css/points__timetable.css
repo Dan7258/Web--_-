@@ -2,19 +2,25 @@
 {
     justify-content: space-between;
     display: flex;
-    font: normal 400 1.56vw 'Disket Mono' ;
     
     padding: 1.95vw 3.13vw;
 }
 
-.molodezhka__description, .taganka__description, .voikovskaya__description
+@media(max-width: 1280px)
 {
-    font: normal 400 1.56vw 'Disket Mono' ;
-    line-height: 3.13vw;
+   /*Расписание*/
+   .points__timetable
+   {
+       padding: 25px 40px;
+   }
 }
 
-.molodezhka__time, .taganka__time, .voikovskaya__time
+
+@media(max-width: 740px)
 {
-    font: normal 400 1.56vw 'Disket Mono' ;
-    line-height: 3.13vw;
+   /*Расписание*/
+   .points__timetable
+   {
+       padding: 3.38vw 5.41vw;
+   }
 }

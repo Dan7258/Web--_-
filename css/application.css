@@ -1,0 +1,155 @@
+article
+{
+    width: 84.38vw;
+    height: 47.42vw;
+    background-image: url('/images/back_form.png');
+    margin: 3.20vw auto 0vw auto;
+    background-size: 100%;
+}
+
+
+
+.application__title
+{
+    font-size: 3.91vw;
+    width: 42.89vw;
+    padding: 1.95vw 0vw 2.34vw 7.81vw;
+    
+}
+.application__description
+{
+    font: normal 400 1.25vw 'Disket Mono' ;
+    margin-left: 7.81vw ;
+
+}
+.application__form__input
+{
+    width: 30.47vw;
+    height: 5.16vw;
+    padding: 0vw 0.23vw;
+    margin: 3.13vw 0vw 0vw 0vw;
+    font: normal 400 2.34vw 'Open Sans' ;
+    border: 0.16vw solid #000000;
+    border-radius: 0.78vw; 
+}
+.application__form__button
+{
+    width: 30.94vw;
+    height: 5.94vw;
+    border: 0.16vw solid #3F9B0B;
+    padding: 0vw;
+    background-color: black;
+    color: white;
+    font: normal 400 2.73vw 'Super Webcomic Bros. (Rus by yakustick)' ;
+    margin: 3.13vw 0vw 0vw 0vw;  
+    border-radius: 0.78vw;
+    cursor: pointer;
+    transition:  300ms ease-in-out;
+    transition-property: border-color, background-color;
+}
+
+.application__form__button:hover
+{
+    background-color: #3F9B0B;
+    border-color: black;
+     
+}
+
+.application__form
+{
+    width:31.25vw ;
+    margin-left: 7.81vw;
+}
+
+
+@media(max-width: 1280px)
+{
+    .application__title
+    {
+        font-size: 50px;
+        width: 549px;
+        
+        
+        
+    }
+    .application__description
+    {
+        font: normal 400 16px 'Disket Mono' ;
+        
+    
+    }
+    .application__form__input
+    {
+        width: 390px;
+        height: 66px;
+        padding: 0px 3px;
+        font: normal 400 30px 'Open Sans' ;
+        border: 2px solid #000000;
+        border-radius: 10px; 
+    }
+    .application__form__button
+    {
+        width: 400px;
+        height: 80px;
+        border: 2px solid #3F9B0B;
+        font: normal 400 35px 'Super Webcomic Bros. (Rus by yakustick)' ; 
+        border-radius: 10px;
+        
+    }
+    .application__form
+    {
+        width:400px ;
+        margin-left: 7.81vw;
+    }
+}
+
+@media(max-width: 1120px)
+{
+    article
+    {
+        width: 749px;
+        height: 607px;
+        background-color: #772028;
+        background-repeat: no-repeat;
+        background-image: none;
+        border-radius: 30px;
+    }
+    .application__title
+    {
+        font-size: 50px;
+        width: 549px;
+        margin: 0px auto ;
+        text-align: center;
+        padding: 25px 0px 30px 0px;
+    }
+    .application__description
+    {
+        font: normal 400 16px 'Disket Mono' ;
+        margin-left: 176.5px;
+    }
+    .application__form
+    {
+        width:400px ;
+        margin: 0px auto;
+    }
+}
+
+
+@media(max-width: 780px)
+{
+    article
+    {
+        width: 440px;
+        height: 550px;
+
+    }
+    .application__title
+    {
+        font-size: 40px;
+        width: 400px;
+    }
+    .application__description
+    {
+        margin-left: 23.5px;
+    }
+}

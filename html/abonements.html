@@ -4,71 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Абонементы</title>
 </head>
 <body class="page">
     <header class="header">
         <nav class="navigation">
-            <img class="logo " src="./images/basket_icon.png" alt="мяч">
+            <img class="logo " src="/images/basket_icon.png" alt="мяч">
             <ul class="navigation__container">
-                <li class="main menu "><a class="text" href="./index.html">главная</a></li>
-                <li class="timetable menu "><a class="text" href="./html/timetable.html">расписание</a></li>
-                <li class="trainers menu "><a class="text" href="./html/coaches.html">тренеры</a></li>
-                <li class="tickets menu "><a class="text" href="./html/abonements.html">абонементы</a></li>
-                <li class="goods menu "><a class="text" href="./html/goods.html">товары</a></li>
+                <li class="main menu "><a class="text" href="/index.html">главная</a></li>
+                <li class="timetable menu "><a class="text" href="/html/timetable.html">расписание</a></li>
+                <li class="trainers menu "><a class="text" href="/html/coaches.html">тренеры</a></li>
+                <li class="tickets menu underline">абонементы</li>
+                <li class="goods menu "><a class="text" href="/html/goods.html">товары</a></li>
             </ul>
+            <ul class="navigation__container__tel">
+                <form action="pages">
+                    <select class="manual" onchange="location = this.options[this.selectedIndex].value;">
+                        <option value="/html/abonements.html">абонементы</option>
+                        <option value="/index.html">главная</option>
+                        <option value="/html/timetable.html">расписание</option>
+                        <option value="/html/coaches.html">тренеры</option>
+                        <option value="/html/goods.html">товары</option>
+                      </select>
+                  </form>
+                </ul>
     </nav>
     </header>
     <main class="main">
         <section class="abonements">
-            <h1>Абонементы</h1>
+            <h1 class="abonements__head_title">Абонементы</h1>
             <ul class="abonements__description">
-                <li class="level_1">
-                    <h3 class="levels">Начало пути</h3>
-                    <img src="./images/начало.jpg" alt="начало пути">
-                    <pre class="level_1__description">
-                        Покажем основы баскетбола.
-                        Вы сможете определиться, 
-                        нравится вам это или нет
-                    </pre>
-                    <button class="level_1__button"><b>8 занятий - 6 400 ₽</b></button>
-                    <br><span class="level_1__mark"><b>800 ₽ за 1 занятие</b></span>
-                </li>
-                <li class="level_2">
-                    <h3 class="levels">В команде</h3>
-                    <img src="./images/команда.jpg" alt="в команде">
-                    <pre class="level_2__description">
-                        Наберетесь опыта в игре 
-                        людьми. Научитесь 
-                        побеждать и действовать 
-                        сообща
-                    </pre>
-                    <button class="level_2__button"><b>16 занятий - 12 000 ₽</b></button>
-                    <br><span class="level_2__mark"><b>750 ₽ за 1 занятие</b></span>
-                </li>
-                <li class="level_3">
-                    <h3 class="levels">Профи</h3>
-                    <img src="./images/профи.jpg" alt="профи">
-                    <pre class="level_3__description">
-                        Станете профессиональным 
-                        баскетболистом. Сможете 
-                        играть за сборную города
-                    </pre>
-                    <button class="level_3__button"><b>32 занятия - 22 400 ₽</b></button>
-                    <br><span class="level_3__mark"><b>700 ₽ за 1 занятие</b></span>
-                </li>
-                <li class="level_4">
-                    <h3 class="levels">Индивидуальный</h3>
-                    <img src="./images/индивид.jpg" alt="ндивидуальная">
-                    <pre class="level_4__description">
-                        Персональное занятие 1 на 
-                        1 с персональным тренером.
-                        (цена указана за 1 час 
-                        занятия)
-                    </pre>
-                    <button class="level_4__button"><b>1 занятие - 2 000 ₽</b></button>
-                </li>
+                <ul class="levels">
+                    <li class="level color_1">
+                        <h3 class="levels__title">Начало пути</h3>
+                        <img class="level__img" src="/images/начало.jpg" alt="начало пути">
+                        <p class="level__description">
+                            Покажем основы баскетбола.
+                            Вы сможете определиться, 
+                            нравится вам это или нет
+                        </p>
+                        <button class="level__button button_color__1"><b><span>8 занятий - </span><span class="price_1">6 </span><span class="price_3">400</span><span class="rub"> ₽</span> </b></button>
+                        <br><p class="level__mark"><b><span>800</span><span class="rub"> ₽</span><span> за 1 занятие</span></b></p>
+                    </li>
+                    <li class="level color_2">
+                        <h3 class="levels__title">В команде</h3>
+                        <img class="level__img" src="/images/команда.jpg" alt="в команде">
+                        <p class="level__description">
+                            Наберетесь опыта в игре 
+                            людьми. Научитесь 
+                            побеждать и действовать 
+                            сообща
+                        </p>
+                        <button class="level__button button_color__2"><b><span>16 занятий - </span><span>1</span><span class="price_1">2 </span><span class="price_3">000</span><span class="rub"> ₽</span> </b></button>
+                        <br><p class="level__mark"><b><span>750</span><span class="rub"> ₽</span><span> за 1 занятие</span></b></p>
+                    </li>
+                </ul> 
+                <ul class="levels">
+                    <li class="level color_3">
+                        <h3 class="levels__title">Профи</h3>
+                        <img class="level__img" src="/images/профи.jpg" alt="профи">
+                        <p class="level__description">
+                            Станете профессиональным 
+                            баскетболистом. Сможете 
+                            играть за сборную города
+                        </p>
+                        <button class="level__button button_color__3"><b><span>32 занятия - </span><span>2</span><span class="price_1">2 </span><span class="price_3">400</span><span class="rub"> ₽</span></b></button>
+                        <br><p class="level__mark"><b><span>700</span><span class="rub"> ₽</span><span> за 1 занятие</span></b></p>
+                    </li>
+                    <li class="level color_4">
+                        <h3 class="levels__title">Индивидуальный</h3>
+                        <img class="level__img" src="/images/индивид.jpg" alt="ндивидуальная">
+                        <p class="level__description">
+                            Персональное занятие 1 на 
+                            1 с персональным тренером.
+                            (цена указана за 1 час 
+                            занятия)
+                        </p>
+                        <button class="level__button button_color__4"><b><span>1 занятие - </span><span class="price_1">2 </span><span class="price_3">400</span><span class="rub"> ₽</span></b></button>
+                    </li>
+                </ul>
             </ul>
         </section>
         <section class="application">
@@ -84,7 +99,7 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__year">2023</p>
+        <p class="footer__year">&copy;2023</p>
         <p class="footer__author">Dan7258</p>
     </footer>
 </body>

@@ -1,0 +1,215 @@
+.goods_img
+{
+    width: 23.44vw;
+    height: 23.44vw;
+    border-radius: 23.44vw;
+    
+    
+}
+
+
+.price_good
+{
+    position: relative;
+    width: 23.44vw;
+    height: 23.44vw;
+    border-radius: 23.44vw;
+}
+
+.line_top__orange
+{
+    margin-top: 10.16vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(247, 115, 6, 1);
+}
+.line_top__blue
+{
+    margin-top: 10.16vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(0, 255, 255, 1);
+}
+.line_top__red
+{
+    margin-top: 10.16vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(255, 0, 0, 1);
+}
+.line_bottom__orange
+{
+    margin-top: 13.28vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(247, 115, 6, 1);
+    margin-left: 11.72vw;
+}
+.line_bottom__blue
+{
+    margin-top: 13.28vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(0, 255, 255, 1);
+    margin-left: 11.72vw;
+}
+.line_bottom__red
+{
+    margin-top: 13.28vw;
+    position: absolute;
+    width: 11.56vw;
+    border-top: 0.21vw solid rgba(255, 0, 0, 1);
+    margin-left: 11.72vw;
+}
+
+.price_shop
+{
+    position: absolute;
+    color: black;
+    width: 23.44vw;
+    height: 23.44vw;
+    border-radius: 23.44vw; 
+    opacity: 0;   
+    margin: -0.21vw;
+    border: 0.21vw solid rgba(255, 0, 0, 0);
+    transition: all 350ms ease-out;
+    cursor: pointer;
+}
+
+.border_orange:hover
+{
+    opacity: 1;
+    border: 0.21vw solid rgba(247, 115, 6, 1);
+    background-color: rgba(142, 142, 142, 0.7);
+    
+}
+.border_blue:hover
+{
+    opacity: 1;
+    border: 0.21vw solid rgba(0, 255, 255, 1);
+    background-color: rgba(142, 142, 142, 0.7);
+    
+}
+.border_red:hover
+{
+    opacity: 1;
+    border: 0.21vw solid rgba(255, 0, 0, 1);
+    background-color: rgba(142, 142, 142, 0.7);
+    
+}
+
+.price_shop__text
+{
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 10.55vw;
+    font: normal 400 2.34vw 'Disket Mono' ;
+    text-shadow: 0.08vw 0 0.08vw #000, 
+                0 0.08vw 0.08vw #000, 
+                -0.08vw 0 0.08vw #000, 
+                0 -0.08vw 0.08vw #000;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1280px)
+{
+   /*товары*/
+   .goods_img
+   {
+       width: 300px;
+       height: 300px;
+       border-radius: 300px;
+   }
+   .price_good
+    {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+    }
+    .price_shop
+    {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;   
+        margin: -3px;
+        border: 3px solid rgba(255, 0, 0, 0);
+    }
+    .line_top__orange
+    {
+        margin-top: 130px;
+        width: 148px;
+        border-top: 3px solid rgba(247, 115, 6, 1);
+    }
+    .line_top__blue
+    {
+        margin-top: 130px;
+        width: 148px;
+        border-top: 3px solid rgba(0, 255, 255, 1);
+    }
+    .line_top__red
+    {
+        margin-top: 130px;
+        width: 148px;
+        border-top: 3px solid rgba(255, 0, 0, 1);
+    }
+    .line_bottom__orange
+    {
+        margin-top: 170px;
+        width: 148px;
+        border-top: 3px solid rgba(247, 115, 6, 1);
+        margin-left: 150px;
+    }
+    .line_bottom__blue
+    {
+        margin-top: 170px;
+        width: 148px;
+        border-top: 3px solid rgba(0, 255, 255, 1);
+        margin-left: 150px;
+    }
+    .line_bottom__red
+    {
+        margin-top: 170px;
+        width: 148px;
+        border-top: 3px solid rgba(255, 0, 0, 1);
+        margin-left: 150px;
+    }
+    
+    .border_orange:hover
+    {
+        opacity: 1;
+        border: 3px solid rgba(247, 115, 6, 1);
+    }
+    .border_blue:hover
+    {
+        opacity: 1;
+        border: 3px solid rgba(0, 255, 255, 1);
+    }
+    .border_red:hover
+    {
+        opacity: 1;
+        border: 3px solid rgba(255, 0, 0, 1);
+       
+    }
+    
+    .price_shop__text
+    {
+       
+        font: normal 400 30px 'Disket Mono' ;
+        margin-top: 135px;
+        text-shadow: 1px 0 1px #000, 
+                    0 1px 1px #000, 
+                    -1px 0 1px #000, 
+                    0 -1px 1px #000;
+        
+    }
+
+}
